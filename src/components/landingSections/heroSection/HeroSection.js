@@ -7,7 +7,6 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="hero-container">
-      <img src={GirlWeb} alt="GirlWeb" className="girl-web" />
       <div className="hero-intro">
         <div className="hero-text-container">
           <div className="hero-title">
@@ -25,6 +24,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <img src={GirlWeb} alt="GirlWeb" className="girl-web" />
     </div>
   );
 };

@@ -1,10 +1,10 @@
+import HamburgerLongLine from "../../assets/images/hamburgerLongLine.png";
+import HamburgerShortLine from "../../assets/images/hamburgerShortLine.png";
 import LogoName from "../../assets/images/logoPicture.png";
+import Button from "../../components/button/Button";
 import Logo from "../../assets/images/logo.png";
 import React, { useState } from "react";
 import "./Header.css";
-import Button from "../../components/button/Button";
-import HamburgerLongLine from "../../assets/images/hamburgerLongLine.png";
-import HamburgerShortLine from "../../assets/images/hamburgerShortLine.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
