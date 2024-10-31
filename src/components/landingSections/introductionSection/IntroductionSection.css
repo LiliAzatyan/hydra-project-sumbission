@@ -1,0 +1,142 @@
+.intro-container {
+  display: flex;
+  margin-top: -100px;
+  margin-bottom: 40px;
+}
+
+.intro-title-container {
+  margin-left: 140px;
+}
+
+.intro-big-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.intro-small-header {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: left;
+  color: white;
+}
+
+.intro-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-left: 220px;
+  max-width: 652px;
+}
+
+.intro-picture {
+  margin-top: -25px;
+  margin-left: 30px;
+  transition: transform 0.3s ease;
+}
+
+.intro-picture:hover {
+  cursor: pointer;
+  transform: translateX(10px);
+}
+
+.arrow-section {
+  display: flex;
+}
+
+@media (max-width: 1500px) {
+  .intro-picture {
+    margin-left: 20px;
+  }
+  .intro-title-container {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .intro-container {
+    overflow-y: hidden;
+    display: flex;
+    margin-top: -40px;
+  }
+  .intro-title-container {
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+  }
+  .intro-text {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 500px;
+  }
+  .intro-small-header {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .intro-title-container {
+    margin-left: -60px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+  }
+  .arrow-section {
+    display: flex;
+  }
+  .intro-picture {
+    display: flex;
+  }
+  .intro-big-title {
+    font-size: 28px;
+    margin-left: 160px;
+  }
+  .intro-small-header {
+    font-size: 24px;
+    margin-left: 160px;
+  }
+  .intro-text {
+    margin-top: 100px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 800px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+  }
+
+  .intro-big-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    text-align: center;
+  }
+
+  .intro-small-header {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31.69px;
+    text-align: center;
+  }
+
+  .intro-text {
+    display: none;
+  }
+
+  .intro-picture {
+    display: none;
+  }
+
+  .arrow-section {
+    display: flex;
+  }
+}

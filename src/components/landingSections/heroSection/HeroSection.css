@@ -61,21 +61,26 @@
 @media (max-width: 1500px) {
   .girl-web {
     margin-left: 50px;
-    margin-top: -100px;
+    margin-top: -130px;
   }
-  .hero-title {
-    font-size: 36px;
+  .hero-text-color {
+    font-size: 32px;
+    margin-top: -90px;
   }
-  .hero-lorem-text {
-    display: inline;
+  .hero-container {
+    margin-top: -50px;
   }
 }
 
 @media (max-width: 1300px) {
-  .girl-web {
+  .hero-container {
+    margin-top: -80px;
   }
   .hero-title {
     font-size: 24px;
+  }
+  .girl-web {
+    margin-top: -40px;
   }
 }
 
@@ -87,7 +92,7 @@
   .girl-web {
     order: -1;
     margin: 0 auto;
-    margin-top: -140px;
+    margin-top: -100px;
     width: 80%;
     margin-bottom: -300px;
   }
@@ -104,6 +109,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 50px;
   }
   .outline {
     display: none;
