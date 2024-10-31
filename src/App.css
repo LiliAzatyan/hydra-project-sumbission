@@ -3,5 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: #302C42; /* Background color from the image */
+  background-color: #302C42; 
+  overflow-x: hidden;
 }

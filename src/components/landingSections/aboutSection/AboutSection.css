@@ -1,0 +1,11 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section-1 {
+    display: flex;
+}
+
+
+

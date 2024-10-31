@@ -1,12 +1,9 @@
-import React from 'react';
-import './Button.css';
+import React from "react";
+import "./Button.css";
 
-const Button = ({ children, variant, onClick }) => {
+const Button = ({ className, children, ...props }) => {
   return (
-    <button 
-      className={`button ${variant}`} 
-      onClick={onClick}
-    >
+    <button className={`join-btn ${className}`} {...props}>
       {children}
     </button>
   );
