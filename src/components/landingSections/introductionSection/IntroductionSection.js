@@ -1,4 +1,4 @@
-import IntroPicture from "../../../assets/images/intro-picture.png";
+import ArrowRight from "../../../assets/images/arrow-right-long.png";
 import "./IntroductionSection.css";
 import React from "react";
 
@@ -10,7 +10,7 @@ const IntroductionSection = () => {
         <div className="arrow-section">
           <p className="intro-small-header">TO HYDRA VR</p>
           <img
-            src={IntroPicture}
+            src={ArrowRight}
             alt="intro-picture"
             className="intro-picture"
           />

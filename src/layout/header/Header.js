@@ -5,6 +5,7 @@ import Button from "../../components/button/Button";
 import Logo from "../../assets/images/logo.png";
 import React, { useState } from "react";
 import "./Header.css";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,22 +17,22 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src={LogoName} alt="logo-name" className="logo-image" />
+       <Link to="/"> <img src={LogoName} alt="logo-name" className="logo-image" /></Link>
         <img src={Logo} alt="Hydra Logo" className="logo-text" />
       </div>
       <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
-        <a href="#about" className="nav-items">
+        <Link to="/coming-soon" className="nav-items">
           About
-        </a>
-        <a href="#services" className="nav-items">
+        </Link>
+        <Link to="/coming-soon" className="nav-items">
           Services
-        </a>
-        <a href="#technologies" className="nav-items">
+        </Link>
+        <Link to="/coming-soon" className="nav-items">
           Technologies
-        </a>
-        <a href="#howto" className="nav-items">
+        </Link>
+        <Link to="/coming-soon" className="nav-items">
           How To
-        </a>
+        </Link>
         <div className="buttons-mobile">
           <button className="contact-btn">Contact Us</button>
           <Button>JOIN HYDRA</Button>

@@ -1,11 +1,146 @@
-.about-section {
-    display: flex;
+.about-container {
+  display: flex;
+  margin-top: 150px;
+}
+
+.about-intro {
+  margin-top: 50px;
+}
+
+.about-text-container {
+  margin-left: 180px;
+}
+
+.about-title {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  margin-bottom: 36px;
+  margin-left: 118px;
+
+}
+
+.about-text-color {
+  background: linear-gradient(180deg, #c0b7e8 0%, #8176af 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.about-lorem-text {
+  color: white;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  width: 630px;
+  margin-left: 118px;
+}
+
+.about-btn-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 28px;
+  margin-left: 118px;
+}
+
+.about-button {
+  width: 214px;
+  height: 48px;
+}
+
+.about-picture {
+  margin-left: 84px;
+}
+
+@media (max-width: 1500px) {
+  .girl-web {
+    margin-left: 50px;
+    margin-top: -130px;
+  }
+  .about-text-color {
+    font-size: 32px;
+    margin-top: -90px;
+  }
+  .about-container {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-container {
+    margin-top: -80px;
+  }
+  .about-title {
+    font-size: 24px;
+  }
+  .about-picture {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-container {
     flex-direction: column;
+    align-items: center;
+  }
+  .about-picture {
+    order: -1;
+    margin: 0 auto;
+    margin-top: -100px;
+    width: 80%;
+    margin-bottom: -300px;
+  }
+  .about-title {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .about-lorem-text {
+    display: none;
+  }
+  .about-btn-section {
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
 }
 
-.about-section-1 {
+@media (min-width: 390px) and (max-width: 800px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-picture {
+    order: -1;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: -300px;
+    margin-top: -60px;
+  }
+
+  .about-title {
+    order: 2;
+    font-size: 24px;
+    text-align: center;
+    /* max-width: 90%;  */
+    margin: 20px 0px;
+  }
+
+  .about-lorem-text {
+    display: none;
+  }
+
+  .about-btn-section {
+    order: 3;
     display: flex;
+    gap: 10px;
+  }
 }
-
-
-

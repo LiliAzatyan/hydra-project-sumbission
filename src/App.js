@@ -10,16 +10,15 @@ import Landing from "./pages/landing/Landing.js";
 
 function App() {
   return (
-    <div>
-      <Router>
-      <Header/>
-        <Routes>
-          <Route path={PATHS.COMING_SOON} element={<ComingSoon/>}/>
-        </Routes>
-        <Landing/>
-        {/* <Footer/> */}
-      </Router>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path={PATHS.COMING_SOON} element={<ComingSoon />} />
+        <Route path="/" element={<Landing />} />
+        {/* Add other routes here if needed */}
+      </Routes>
+      {/* <Footer />  */}
+    </Router>
   );
 }
 

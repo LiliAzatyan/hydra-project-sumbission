@@ -18,13 +18,6 @@
   margin-bottom: 36px;
 }
 
-.hero-text-color {
-  background: linear-gradient(180deg, #c0b7e8 0%, #8176af 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
 .hero-lorem-text {
   color: white;
   font-weight: 400;
