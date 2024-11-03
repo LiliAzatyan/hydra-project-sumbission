@@ -111,6 +111,10 @@
 }
 
 @media (min-width: 390px) and (max-width: 800px) {
+    .services-section-1 {
+        margin-top: -1px;
+        margin-left: -50px;
+    }
   .services-container {
     display: flex;
     flex-direction: column;
@@ -121,7 +125,7 @@
   .services-big-title {
     font-size: 26px;
     font-weight: 700;
-    line-height: 31.69px;
+    line-height: 32px;
     text-align: center;
   }
 
