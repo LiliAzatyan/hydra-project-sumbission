@@ -80,7 +80,6 @@
   .about-btn-section {
     margin-left: 32px;
   }
-  
 }
 
 @media (max-width: 1000px) {
@@ -104,8 +103,8 @@
     /* max-width: 100%; */
     /* margin-left: 250px; */
     margin-left: 20px;
-}
-.about-btn-section {
+  }
+  .about-btn-section {
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 200px;
@@ -125,7 +124,7 @@
     max-width: 500px;
     margin: 0 auto;
     margin-top: 150px;
-    margin-right: 50px
+    margin-right: 50px;
   }
 
   .about-title {

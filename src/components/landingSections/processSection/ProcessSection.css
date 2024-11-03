@@ -9,38 +9,38 @@
 }
 
 .process-title-container {
-margin-left: 140px;
+  margin-left: 140px;
 }
 
 .process-big-title {
-font-size: 36px;
-font-weight: 700;
-line-height: 44px;
-text-align: left;
-color: white;
-margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .process-small-header {
-font-size: 36px;
-font-weight: 300;
-line-height: 44px;
-text-align: left;
-color: white;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: left;
+  color: white;
 }
 
 .process-text {
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-color: white;
-margin-left: 220px;
-max-width: 652px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+  margin-left: 220px;
+  max-width: 652px;
 }
 
 .process-arrow-section {
-display: flex;
+  display: flex;
 }
 
 .process-images-section {
@@ -97,29 +97,29 @@ display: flex;
 
 @media (max-width: 768px) {
   .process-images-section {
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
   }
 
   .process-picture {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .circle {
-      width: 80px;
-      height: 80px;
-      font-size: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
   }
 
   .process-text-section p {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .arrow img {
-      width: 32px;
-      height: 32px;
+    width: 32px;
+    height: 32px;
   }
 }

@@ -1,11 +1,11 @@
-import HamburgerLongLine from "../../assets/images/hamburgerLongLine.png";
 import HamburgerShortLine from "../../assets/images/hamburgerShortLine.png";
+import HamburgerLongLine from "../../assets/images/hamburgerLongLine.png";
 import LogoName from "../../assets/images/logoPicture.png";
 import Button from "../../components/button/Button";
 import Logo from "../../assets/images/logo.png";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +17,10 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-       <Link to="/"> <img src={LogoName} alt="logo-name" className="logo-image" /></Link>
+        <Link to="/">
+          {" "}
+          <img src={LogoName} alt="logo-name" className="logo-image" />
+        </Link>
         <img src={Logo} alt="Hydra Logo" className="logo-text" />
       </div>
       <nav className={`nav-links ${menuOpen ? "open" : ""}`}>

@@ -102,9 +102,9 @@
 }
 
 @media (min-width: 390px) and (max-width: 600px) {
-    .form-container {
-        height: auto;
-    }
+  .form-container {
+    height: auto;
+  }
   .form-content {
     overflow-y: hidden;
     flex-direction: row;

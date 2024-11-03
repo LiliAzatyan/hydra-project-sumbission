@@ -1,11 +1,11 @@
 .services-section-1 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .services-container {
-    display: flex;
-    margin-bottom: 40px;
-    overflow-y: hidden;
+  display: flex;
+  margin-bottom: 40px;
+  overflow-y: hidden;
 }
 
 .services-title-container {

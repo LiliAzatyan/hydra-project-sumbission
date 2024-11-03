@@ -4,12 +4,12 @@ import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
 import { ReactComponent as Linkedin } from "../../assets/icons/linkedin.svg";
 import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg";
 import { ReactComponent as Youtube } from "../../assets/icons/youtube.svg";
-import FooterLine from "../../assets/images/footerLine.png";
 import FooterUnderLine from "../../assets/images/footerUnderLine.png";
 import FooterLogo from "../../assets/images/logoPicture.png";
+import FooterLine from "../../assets/images/footerLine.png";
+import Button from "../../components/button/Button";
 import React from "react";
 import "./Footer.css";
-import Button from "../../components/button/Button";
 
 const Footer = () => {
   return (

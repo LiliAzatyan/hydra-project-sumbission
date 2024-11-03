@@ -9,8 +9,7 @@ import "./ProcessSection.css";
 
 const ProcessSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  
-  // Corrected `processItems` array to include images as `src`
+
   const processItems = [
     { id: Process01, title: "3D Conception & Design" },
     { id: Process02, title: "Interaction Design" },
@@ -58,13 +57,14 @@ const ProcessSection = () => {
         </button>
         <div className="process-picture">
           <div className="circle">
-            <span>
-              {(currentIndex + 1).toString().padStart(2, "0")}
-            </span>
+            <span>{(currentIndex + 1).toString().padStart(2, "0")}</span>
           </div>
           <div className="process-text-section">
             <p>{processItems[currentIndex].title}</p>
-            <img src={processItems[currentIndex].id} alt={processItems[currentIndex].title} />
+            <img
+              src={processItems[currentIndex].id}
+              alt={processItems[currentIndex].title}
+            />
           </div>
         </div>
         <button className="arrow right" onClick={nextProcess}>
