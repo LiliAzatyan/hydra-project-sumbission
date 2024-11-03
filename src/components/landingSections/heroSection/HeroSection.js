@@ -9,9 +9,10 @@ const HeroSection = () => {
     <div className="hero-container">
       <div className="hero-intro">
         <div className="hero-text-container">
-          <div className="hero-title">
-            <p>ABOUT</p>
-            <p>HYDRA VR</p>
+        <div className="hero-title">
+            <span className="hero-text-color">Dive</span> Into The Depths{" "}
+            <br />
+            Of <span className="hero-text-color">Virtual Reality</span>
           </div>
           <div className="hero-lorem-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />

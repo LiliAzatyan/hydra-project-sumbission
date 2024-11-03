@@ -1,0 +1,129 @@
+.form-container {
+  overflow-y: hidden;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 80%;
+  height: 1008px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background: none;
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+}
+
+.form-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  background: none;
+  color: #b3b3b3;
+  height: 44px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 65px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  gap: 33px;
+  align-items: center;
+  max-width: 100%;
+}
+
+.form-row {
+  display: flex;
+  background: none;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 22px;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  height: 100px;
+  resize: none;
+  width: 524px;
+  height: 72px;
+  border-radius: 40px 40px 40px 40px;
+  border: 2px 0px 0px 0px;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #b3b3b3;
+  padding: 22px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #a99fdb;
+}
+
+.subject {
+  width: 1058px;
+  height: 72px;
+  border-radius: 40px 40px 40px 40px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.form-textarea {
+  height: 100px;
+  resize: none;
+  width: 1058px;
+  height: 210px;
+  border-radius: 40px 40px 40px 40px;
+}
+
+.form-button {
+  width: 214px;
+  height: 48px;
+  margin-top: 20px;
+}
+
+@media (min-width: 390px) and (max-width: 600px) {
+  .form-content {
+    overflow-y: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .form-input,
+  .form-textarea {
+    width: 58vw;
+  }
+
+  .form-textarea {
+    height: 30vw;
+  }
+
+  .form-button {
+    width: 60vw;
+  }
+}

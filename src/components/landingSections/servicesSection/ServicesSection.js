@@ -63,10 +63,10 @@ const ServicesSection = () => {
         {services.map((service, index) => (
           <div className="service-card" key={index}>
             <div className="service-image-placeholder">
-              <img src={service.image} alt={service.title}/>
+              <img src={service.image} alt={service.title} />
             </div>
             <h3 className="service-title">{service.title}</h3>
-          <div className="div-for-line"></div>
+            <div className="div-for-line"></div>
 
             <p className="service-description">{service.description}</p>
             <Button className="service-button">TRY IT NOW</Button>

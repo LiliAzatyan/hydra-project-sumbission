@@ -3,8 +3,9 @@
 }
 
 .services-container {
-  display: flex;
-  margin-bottom: 40px;
+    display: flex;
+    margin-bottom: 40px;
+    overflow-y: hidden;
 }
 
 .services-title-container {

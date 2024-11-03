@@ -27,19 +27,6 @@
   margin-bottom: 40px;
 }
 
-.footer-btn {
-  padding: 8px 12px;
-  border: 2px solid #ffffff;
-  border-radius: 25px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-  background-color: #8d81e6;
-  color: #2a2846;
-  cursor: pointer;
-}
-
 .footer-section-5 {
   display: flex;
   justify-content: center;
@@ -51,5 +38,106 @@
   justify-content: center;
   color: #ffffff;
   margin-top: 50px;
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
 }
+
+.footer-btn {
+  width: 214px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-section-2,
+  .footer-section-3 {
+    display: none;
+  }
+
+  .footer-elements {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 50px;
+  }
+
+  .footer-btn {
+    width: 100%;
+  }
+
+  .footer-underline {
+    display: none;
+  }
+  .footer-underline {
+    height: 100px;
+    width: 100px;
+  }
+
+  .footer-underline-text {
+    /* margin-top: -100px;
+    margin-bottom: 50px;
+    width: 280px;
+    text-align: center;
+    margin-left: 28%; */
+    display: none;
+
+  }
+}
+
+@media (min-width: 390px) and (max-width: 500px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-section-2,
+  .footer-section-3 {
+    display: none;
+  }
+
+  .footer-elements {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 6px;
+  }
+
+  .footer-btn {
+    width: 80%;
+    margin-left: 20px;
+    font-size: 10px;
+    height: 40px;
+  }
+
+  .footer-underline {
+    display: none;
+  }
+
+  .social-media-icons {
+    gap: 10px;
+  }
+
+  .social-media-icons a svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-underline {
+    display: none;
+  }
+
+  .footer-underline-text {
+    /* font-size: 12px; 
+    margin-top: -80px; 
+    margin-bottom: 40px; 
+    width: 250px; 
+    text-align: center;
+    margin-left: 18%; */
+    display: none;
+  }
+}
+
