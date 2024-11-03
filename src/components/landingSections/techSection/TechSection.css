@@ -1,46 +1,113 @@
-.technologies-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: calc(100% - 100px);
-  height: auto;
-  margin: 0 auto;
-  padding: 0 50px;
-}
-
-.arrow-tech-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: -40px;
-}
-
-@media (max-width: 1500px) {
-  .technologies-picture {
-    padding: 0 50px;
+.tech-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
   }
-  .arrow-tech-section {
-    display: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .technologies-picture {
-    margin-top: 20px;
-  }
-  .arrow-tech-section {
-    display: none;
-  }
-}
-
-@media (max-width: 800px) {
-  .technologies-picture {
-    padding: 0 0px;
-    margin-bottom: 50px;
+  
+  .main-image-section {
+    position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    overflow-y: hidden;
   }
-  .arrow-tech-section {
+  
+  .technologies-picture {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  
+  .tech-images-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  .tech-images-grid {
+    display: flex;
+    gap: 92px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tech-image {
+    max-width: 174px;
+    height: 174px;
+  }
+  
+  .carousel {
     display: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
   }
-}
+  
+  .carousel-image {
+    max-width: 150px;
+    margin: 0 20px;
+  }
+  
+  .carousel-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel-arrow img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1500px) {
+    .arrow-tech-section {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tech-images-grid {
+      display: none;
+    }
+  
+    .carousel {
+      display: flex;
+        max-width: 470px;
+        max-height: 300px;
+    }
+  
+    .carousel-image {
+      max-width: 200px;
+      height: 200px;
+    }
+  
+    .carousel-arrow {
+      width: 50px;
+      height: 50px;
+    }
+    .arrow-tech-section {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-image {
+      max-width: 170px;
+      height: 150px;
+    }
+  
+    .carousel-arrow {
+      width: 55px;
+      height: 55px;
+    }
+    .arrow-tech-section {
+      display: none;
+    }
+  }
+  

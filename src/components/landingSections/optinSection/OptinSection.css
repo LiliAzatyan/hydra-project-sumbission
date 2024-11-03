@@ -102,11 +102,17 @@
 }
 
 @media (min-width: 390px) and (max-width: 600px) {
+    .form-container {
+        height: auto;
+    }
   .form-content {
     overflow-y: hidden;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .form-row {
