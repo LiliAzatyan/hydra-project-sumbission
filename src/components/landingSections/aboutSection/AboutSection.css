@@ -64,7 +64,7 @@
   .about-container {
     margin-top: 150px;
     max-width: 1200px;
-    margin-left: -100px;
+    margin-left: -200px;
   }
   .about-title {
     font-size: 24px;
@@ -145,7 +145,7 @@
     order: 3;
     display: flex;
     gap: 10px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
     margin-left: 100px;
   }
 }
