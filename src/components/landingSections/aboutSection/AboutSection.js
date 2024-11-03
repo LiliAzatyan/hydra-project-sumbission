@@ -10,9 +10,9 @@ const AboutSection = () => {
       <div className="about-intro">
         <div className="about-text-container">
           <div className="about-title">
-            <span className="about-text-01">ABOUT</span> 
+            <span className="about-text-01">ABOUT</span>
             <br />
-           <span className="about-text-02">HYDRA VR</span>
+            <span className="about-text-02">HYDRA VR</span>
           </div>
           <div className="about-lorem-text">
             Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus

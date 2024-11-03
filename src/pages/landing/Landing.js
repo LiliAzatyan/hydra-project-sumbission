@@ -3,7 +3,7 @@ import ProcessSection from "../../components/landingSections/processSection/Proc
 import ServicesSection from "../../components/landingSections/servicesSection/ServicesSection";
 import OptinSection from "../../components/landingSections/optinSection/OptinSection";
 import AboutSection from "../../components/landingSections/aboutSection/AboutSection";
-// import Rectangle from "../../components/landingSections/rectangleSection/Rectangle";
+import Rectangle from "../../components/landingSections/rectangleSection/Rectangle";
 import HeroSection from "../../components/landingSections/heroSection/HeroSection";
 import TechSection from "../../components/landingSections/techSection/TechSection";
 import Footer from "../../layout/footer/Footer";
@@ -14,7 +14,7 @@ const Landing = () => {
   return (
     <div>
       <HeroSection />
-      {/* <Rectangle/> */}
+      <Rectangle/>
       <IntroductionSection />
       <AboutSection />
       <ServicesSection />

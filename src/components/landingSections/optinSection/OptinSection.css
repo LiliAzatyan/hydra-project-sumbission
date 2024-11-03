@@ -132,4 +132,9 @@
   .form-button {
     width: 60vw;
   }
+
+  .form-subtitle {
+    margin-bottom: 30px;
+    height: 140px;
+  }
 }
