@@ -1,5 +1,5 @@
 import Header from "./layout/header/Header.js";
-// import Footer from "./layout/footer/Footer";
+import Footer from "./layout/footer/Footer";
 import "./App.css";
 import ComingSoon from "./pages/comingSoon/ComingSoon.js";
 import PATHS from "./constant/paths.js";
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         {/* Add other routes here if needed */}
       </Routes>
-      {/* <Footer />  */}
+      <Footer /> 
     </Router>
   );
 }

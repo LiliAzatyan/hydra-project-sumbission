@@ -24,11 +24,11 @@ const ComingSoon = () => {
     return (
         <div className="container">
             <div className="image-container">
-                <img src={VirtualReality} alt="VirtualReality" />
+                <img src={VirtualReality} alt="VirtualReality" className="virtual-picture"/>
             </div>
             <div className="text-container">
                 <h1 className="animated-text">{text}</h1>
-                <p>We are working hard to bring you a new experience. Stay tuned!</p>
+                <p>This page will be ready soon. Stay tuned!</p>
             </div>
         </div>
     );

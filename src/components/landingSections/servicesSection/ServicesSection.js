@@ -1,11 +1,11 @@
-import ArrowRight from "../../../assets/images/arrow-right-long.png";
-import Button from "../../button/Button";
-import "./ServicesSection.css";
-import React from "react";
 import ServicesImg1 from "../../../assets/images/services-img/services-img-1.png";
 import ServicesImg2 from "../../../assets/images/services-img/services-img-2.png";
 import ServicesImg3 from "../../../assets/images/services-img/services-img-3.png";
 import ServicesImg4 from "../../../assets/images/services-img/services-img-4.png";
+import ArrowRight from "../../../assets/images/arrow-right-long.png";
+import Button from "../../button/Button";
+import "./ServicesSection.css";
+import React from "react";
 
 const ServicesSection = () => {
   const services = [

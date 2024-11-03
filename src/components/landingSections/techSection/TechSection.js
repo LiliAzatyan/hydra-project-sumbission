@@ -1,18 +1,18 @@
 import TechnologiesPicture from "../../../assets/images/technologies-picture.png";
-import NextArrow from "../../../assets/images/arrow/next-arrow.png";
-import PrevArrow from "../../../assets/images/arrow/prev-arrow.png";
-import "./TechSection.css";
-import React, { useState } from "react";
 import UnrealImage from "../../../assets/images/tech-img/unreal.png";
-import UnityImage from "../../../assets/images/tech-img/unity.png";
 import OculusImage from "../../../assets/images/tech-img/oculus.png";
+import PrevArrow from "../../../assets/images/arrow/prev-arrow.png";
+import NextArrow from "../../../assets/images/arrow/next-arrow.png";
+import UnityImage from "../../../assets/images/tech-img/unity.png";
 import ViveImage from "../../../assets/images/tech-img/vive.png";
+import React, { useState } from "react";
+import "./TechSection.css";
 
 const images = [
   { src: UnrealImage, alt: "Unreal image" },
   { src: UnityImage, alt: "Unity image" },
   { src: OculusImage, alt: "Oculus image" },
-  { src: ViveImage, alt: "Vive image" }
+  { src: ViveImage, alt: "Vive image" },
 ];
 
 const TechSection = () => {
@@ -23,8 +23,8 @@ const TechSection = () => {
   };
 
   const handlePrev = () => {
-    setCurrentImageIndex((prevIndex) =>
-      (prevIndex - 1 + images.length) % images.length
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
     );
   };
 
@@ -41,7 +41,12 @@ const TechSection = () => {
       <div className="tech-images-section">
         <div className="tech-images-grid">
           {images.map((image, index) => (
-            <img key={index} src={image.src} alt={image.alt} className="tech-image" />
+            <img
+              key={index}
+              src={image.src}
+              alt={image.alt}
+              className="tech-image"
+            />
           ))}
         </div>
 
